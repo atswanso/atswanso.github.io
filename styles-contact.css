@@ -58,85 +58,80 @@ table {
 html, body {
   height: 100%;
   width: 100%;
-  padding: 0;
   margin: 0;
-  background:url(images/bricks_bg.jpg)
+  background:url(images/websitebg.jpg)
       center center fixed no-repeat;
     background-size: cover;
-	
+    font-family: 
 	
 }
 
-.center {
-    width: 800px;
-	padding: 2%;
+.center { 
+    width: 70%; /* added to make div responsive */ 
+    height: 70%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
-	text-align: center;
-	border: 4px dashed white;
+    border-radius: 200px;
+ 	background: rgba(90, 90, 100, .6); /*this uses opacity of 60% for the background color*/
+	text-align: center; /*removed border: 4px dashed white;
+    */
 }
+   
   
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-top: 50px;
+/*added top margin because logo looked too close to square end*/
+    margin-bottom: 20px;
+	border: none;
 	text-align: center;
 }
 
 h1 {
-	font-family: ccbiffbamboomoutline, sans-serif;
+	font-family: mati, sans-serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 2em;
-    margin: 0px auto 10px auto;
+	font-size: 18em;
+    margin: 0px auto 30px auto;
     color: #fff;
-}
-
-h2 {
-    font-family: ccbiffbamboomoutline, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
 }
 
 p {
-	font-family: ccbiffbamboomoutline, sans-serif;
+    margin-top: 1em;
+	font-family: gooddog-new, sans-serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 1.2em;
+	font-size: 6em;
     line-height: 1.6;
     color: #fff;
 }
     
 nav{
-    font-family: garamond;
-    font-size: 1.2em;
-    width: 400px;
+    font-family: mati, sans-serif;
+    font-size: 8em;
+    width: 50%;
     margin: 0 auto;
-    border: dashed turquoise;
-    border-width: 3px 0;
+/*took out border because it looked awkward*/
     text-align: center;
-    margin-top: 2em; 
+    margin-top: 1em; 
 }
 
 nav li{
     display: inline;
+    padding: 60px;
+/*added padding to space out each "button" */
 }
 
 nav a{
     display: inline-block;
-    padding: 10px;
+    padding: 8px;
 }
 a{
-    color: #444;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
+    /*took out font weight because I just wanted it to be normal*/
 }
 a:hover{
     color: black;
-    background: pink;
+    background: deepskyblue;
+   
 }
 
