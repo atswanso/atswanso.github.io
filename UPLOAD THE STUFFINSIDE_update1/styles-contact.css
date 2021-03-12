@@ -1,0 +1,137 @@
+/*This is my 318 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- Hello, my name is Abbott Swanson and this is the beginning of my CONTACT PAGE CSS for 201 Digital Publishing November 2020 ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background:url(images/websitebg.jpg)
+      center center fixed no-repeat;
+    background-size: cover;
+    font-family: 
+	
+}
+
+.center { 
+    width: 70%; /* added to make div responsive */ 
+    height: 70%;
+    margin: 100px auto;
+    border-radius: 200px;
+ 	background: rgba(90, 90, 100, .6); /*this uses opacity of 60% for the background color*/
+	text-align: center; /*removed border: 4px dashed white;
+    */
+}
+   
+  
+#logo {
+    margin-top: 50px;
+/*added top margin because logo looked too close to square end*/
+    margin-bottom: 20px;
+	border: none;
+	text-align: center;
+}
+
+h1 {
+	font-family: mati, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 18em;
+    margin: 0px auto 30px auto;
+    color: #fff;
+}
+
+p {
+    margin-top: 1em;
+	font-family: gooddog-new, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 6em;
+    line-height: 1.6;
+    color: #fff;
+}
+    
+nav{
+    font-family: mati, sans-serif;
+    font-size: 8em;
+    width: 50%;
+    margin: 0 auto;
+/*took out border because it looked awkward*/
+    text-align: center;
+    margin-top: 1em; 
+}
+
+nav li{
+    display: inline;
+    padding: 60px;
+/*added padding to space out each "button" */
+}
+
+nav a{
+    display: inline-block;
+    padding: 8px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    /*took out font weight because I just wanted it to be normal*/
+}
+a:hover{
+    color: black;
+    background: deepskyblue;
+   
+}
+
