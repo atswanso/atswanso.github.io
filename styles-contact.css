@@ -1,4 +1,4 @@
-/*This is my 318 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+/*This is my 201 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
 
 
 
@@ -61,27 +61,25 @@ html, body {
   margin: 0;
   background:url(images/websitebg.jpg)
       center center fixed no-repeat;
-    background-size: cover;
-    font-family: 
-	
+    background-size: cover; 	
 }
 
 .center { 
     width: 70%; /* added to make div responsive */ 
-    height: 70%;
+    padding: 2%;
     margin: 100px auto;
     border-radius: 200px;
- 	background: rgba(90, 90, 100, .6); /*this uses opacity of 60% for the background color*/
-	text-align: center; /*removed border: 4px dashed white;
+ 	text-align: center;
+    background: rgba(90, 90, 100, .6); /*this uses opacity of 60% for the background color*/
+
+    /*removed border: 4px dashed white;
     */
 }
    
-  
 #logo {
     margin-top: 50px;
 /*added top margin because logo looked too close to square end*/
     margin-bottom: 20px;
-	border: none;
 	text-align: center;
 }
 
@@ -89,17 +87,17 @@ h1 {
 	font-family: mati, sans-serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 18em;
+	font-size: 10em;
     margin: 0px auto 30px auto;
     color: #fff;
 }
 
 p {
-    margin-top: 1em;
 	font-family: gooddog-new, sans-serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 6em;
+	font-size: 4em;
+    margin-top: 1em;
     line-height: 1.6;
     color: #fff;
 }
@@ -116,7 +114,7 @@ nav{
 
 nav li{
     display: inline;
-    padding: 60px;
+    padding:100px;
 /*added padding to space out each "button" */
 }
 
@@ -124,14 +122,15 @@ nav a{
     display: inline-block;
     padding: 8px;
 }
+
 a{
     color: white;
     text-decoration: none;
     /*took out font weight because I just wanted it to be normal*/
 }
+
 a:hover{
     color: black;
     background: deepskyblue;
-   
 }
 
