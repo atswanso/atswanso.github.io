@@ -96,7 +96,7 @@ p {
 	font-family: gooddog-new, sans-serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 4em;
+	font-size: 2em;
     margin-top: 1em;
     line-height: 1.6;
     color: #fff;
@@ -104,8 +104,8 @@ p {
     
 nav{
     font-family: mati, sans-serif;
-    font-size: 8em;
-    width: 50%;
+    font-size: 2em;
+    width: 60%;
     margin: 0 auto;
 /*took out border because it looked awkward*/
     text-align: center;
