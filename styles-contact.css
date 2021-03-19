@@ -111,6 +111,8 @@ nav{
 /*took out border because it looked awkward*/
     text-align: center;
     margin-top: 4em; 
+    margin-bottom: 2em;
+/*added margin bottom so that the text wouldn't be set all the way at the bottom of the site*/ 
 }
 
 nav li{
@@ -132,7 +134,9 @@ a{
 a:hover{
     color: black;
     background: deepskyblue;
-    padding-left: 4px;
-    padding-right: 4px;
+    border-radius: 10px;
+/*added to see if the hover would become rounded*/
+    padding: 20px;
+/* adjusting padding to see if hover lenght/width will change*/ 
 }
 
