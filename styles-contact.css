@@ -61,7 +61,7 @@ html, body {
   margin: 0;
   background:url(images/websitebg.jpg)
       center center fixed no-repeat;
-    background-size: cover; 	
+    background-size: cover; 
 }
 
 .center { 
@@ -110,14 +110,15 @@ nav{
     margin: 0 auto;
 /*took out border because it looked awkward*/
     text-align: center;
-    margin-top: 4em; 
-    margin-bottom: 2em;
+    margin-top: 1em; 
+    margin-bottom: 4em;
 /*added margin bottom so that the text wouldn't be set all the way at the bottom of the site*/ 
 }
 
 nav li{
     display: inline;
-/*deleted padding to keep closeness between each "button" */
+    padding: 10px;
+/*added padding to keep assist hover padding between each "button" */
 }
 
 nav a{
@@ -134,9 +135,11 @@ a{
 a:hover{
     color: black;
     background: deepskyblue;
-    border-radius: 10px;
+    border-radius: 100px;
 /*added to see if the hover would become rounded*/
-    padding: 20px;
+    /* IT WORKED!*/
+    
+    padding: 10px;
 /* adjusting padding to see if hover lenght/width will change*/ 
 }
 
