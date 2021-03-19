@@ -104,12 +104,12 @@ p {
     
 nav{
     font-family: mati, sans-serif;
-    font-size: 8em;
+    font-size: 4em;
     width: 60%;
     margin: 0 auto;
 /*took out border because it looked awkward*/
     text-align: center;
-    margin-top: 1em; 
+    margin-top: 2em; 
 }
 
 nav li{
@@ -132,5 +132,7 @@ a{
 a:hover{
     color: black;
     background: deepskyblue;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
