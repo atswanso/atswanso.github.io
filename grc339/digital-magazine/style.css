@@ -1,0 +1,125 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+div.container {
+    max-width: 60em;
+    margin: auto;
+    padding-top: 2em;
+}
+
+header {
+    margin: 0.5em;
+}
+
+nav {
+    padding-bottom: 1em;
+}
+
+nav a {
+    color: rgb(101, 125, 180);
+}
+
+nav li {
+    list-style: none;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 0.2em 0;
+}
+
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: sans-serif;
+    margin-bottom: 2em;
+    color: rgb(0, 0, 0);
+    line-height: 1.2em;
+}
+
+.primary {
+    margin: 0.5em;
+}
+
+section.primary h2 {
+    font-size: 3em;
+}
+
+.secondary {
+    margin: 0.5em;
+}
+
+main h2 {
+    font-size: 2em;
+}
+
+.tertiary {
+    border-top: 1px solid rgb(101, 125, 180);
+    margin: 0.5em;
+    
+}
+
+section.tertiary h2 {
+    font-size: 1.25em;
+    margin-top: 0.5em;
+}
+
+
+h1 {
+    max-width: 8em;
+    padding-bottom: 1em;
+}
+
+h2 {
+    color: rgb(101, 125, 180);
+    font-weight: 600;
+    transform: scaleY(.9);
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+
+}
+
+article {
+    margin: 0.5em;
+}
+
+article h2 {
+    font-size: 3em;
+}
+
+figcaption {
+    font-size: 1em;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(90, 90, 90);
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+aside {
+    background-color: rgb(187, 207, 255);
+    padding: 1em 0;
+}
+
+aside h2 {
+    font-size: 1.25em;
+    padding-top: 0.25em;
+}
+
+footer {
+    background-color: rgb(101, 125, 180);
+
+    padding: 0.5em;
+}
